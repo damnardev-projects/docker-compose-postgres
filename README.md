@@ -12,7 +12,7 @@ After cloning this repository, you must copy `env.example` to `.env` and customi
 - `POSTGRES_DB`: The name of the PostgreSQL database to create
 - `POSTGRES_MAX_CONNECTIONS`: The maximum number of connections for the PostgreSQL database
 - `POSTGRES_PASSWORD`: The password for the PostgreSQL database
-- `POSTGRES_USER`: The username for the PostgreSQL database
+- `POSTGRES_SHARED_BUFFERS`: The shared buffers setting for the PostgreSQL database- `POSTGRES_USER`: The username for the PostgreSQL database
 - `PROJECT_NAME`: The name of the project (used for naming the Docker containers)
 
 ### Startup
